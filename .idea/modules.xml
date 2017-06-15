@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sufatong.iml" filepath="$PROJECT_DIR$/sufatong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sufatong-common/sufatong-common.iml" filepath="$PROJECT_DIR$/sufatong-common/sufatong-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sufatong-dal/sufatong-dal.iml" filepath="$PROJECT_DIR$/sufatong-dal/sufatong-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sufatong-service/sufatong-service.iml" filepath="$PROJECT_DIR$/sufatong-service/sufatong-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sufatong-web/sufatong-web.iml" filepath="$PROJECT_DIR$/sufatong-web/sufatong-web.iml" />
+    </modules>
+  </component>
+</project>

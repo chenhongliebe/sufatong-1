@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sufatong-common" />
+        <module name="sufatong-dal" />
+        <module name="sufatong-service" />
+        <module name="sufatong-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sufatong" target="1.7" />
+      <module name="sufatong-common" target="1.7" />
+      <module name="sufatong-dal" target="1.7" />
+      <module name="sufatong-service" target="1.7" />
+      <module name="sufatong-web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

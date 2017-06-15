@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.weidai:mybatisplugin:1.1.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../idealProject/com/weidai/mybatisplugin/1.1.1-SNAPSHOT/mybatisplugin-1.1.1-20170511.053553-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../idealProject/com/weidai/mybatisplugin/1.1.1-SNAPSHOT/mybatisplugin-1.1.1-20170511.053553-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../idealProject/com/weidai/mybatisplugin/1.1.1-SNAPSHOT/mybatisplugin-1.1.1-20170511.053553-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

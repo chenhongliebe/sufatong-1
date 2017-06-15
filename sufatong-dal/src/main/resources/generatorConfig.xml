@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <classPathEntry
+            location="/Users/wyz/maven/DevRespository/mysql/mysql-connector-java/5.1.35/mysql-connector-java-5.1.35.jar"/>
+    <!-- mvn mybatis-generator:generate -->
+    <context id="oneHour" targetRuntime="com.weidai.mybatis.IntrospectedTableMyBatis3ImplExt">
+        <property name="suppressAllComments" value="true"/>
+        <property name="useActualColumnNames" value="false"/>
+        <!-- 格式化java代码 -->
+        <property name="javaFormatter" value="org.mybatis.generator.api.dom.DefaultJavaFormatter"/>
+        <!-- 格式化XML代码 -->
+        <property name="xmlFormatter" value="org.mybatis.generator.api.dom.DefaultXmlFormatter"/>
+        <!-- 配置插件 -->
+        <plugin type="com.weidai.mybatis.WdMysqlClientGeneratorPlugin"/>
+        <commentGenerator type="com.weidai.mybatis.generator.CNCommentGenerator">
+            <!-- 各成员变量、类文件，此配置请忽更改，若要更改请确保对该配置的理解 -->
+            <!-- 是否去除自动生成的注释 true：是； false:否 -->
+            <property name="suppressAllComments" value="true"/>
+            <property name="author" value="Liu Shimao"/>
+            <!-- value 中值表示 生成该.java文件（主要是持久化实体类、Mapper接口）的作者，请自行修改-->
+        </commentGenerator>
+
+        <!--数据库连接的信息：驱动类、连接地址、用户名、密码 -->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/jjw" userId="user2" password="user2">
+        </jdbcConnection>
+
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+
+        <!-- 配置model生成位置 -->
+        <javaModelGenerator targetPackage="com.legalups.sufatong.model" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+
+        <!-- 配置sqlmap生成位置 -->
+        <sqlMapGenerator targetPackage="com/legalups/sufatong/dao/mapper" targetProject="src/main/resources">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+
+        <!-- 配置mapper接口生成位置 -->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.legalups.sufatong.dao.mapper"
+                             targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+        <table tableName="first_tb" domainObjectName="FirstTb"
+               enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+            <generatedKey column="id" sqlStatement="Mysql" type="post" identity="true"/>
+        </table>
+
+    </context>
+</generatorConfiguration>

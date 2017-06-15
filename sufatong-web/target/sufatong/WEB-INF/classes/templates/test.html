@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../statics/js/jquery.min.js"  ></script>
+</head>
+<script>
+    function login() {
+        var param={};
+        var url = "/home/login"
+        $.ajax({
+            type : "post",
+            url : url,
+            data : {},
+            async : false,
+            dataType : "json",
+            success : function(data) {
+                $("#login").html(data);
+                if (data.success) {
+                    setCookie("authKey", data.data.sessionId);
+                }
+            }
+        })
+    }
+    //写cookies
+    function setCookie(name,value)
+    {
+        var Days = 30;
+        var exp = new Date();
+        exp.setTime(exp.getTime() + Days*24*60*60*1000);
+        document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
+    }
+
+</script>
+<body>
+
+    <nav>
+        <menu>
+            <ul>
+                <li>
+                    <a href="javascript:login()" >login</a>
+                </li>
+                <li>
+                    <a href="javascript:data()">data</a>
+                </li>
+                <li>
+                    <a href="javascript:demo()">demo</a>
+                </li>
+
+            </ul>
+
+        </menu>
+
+    </nav>
+<div>
+    <p id="login"></p>
+    <p id="data"></p>
+    <p id="demo"></p>
+</div>
+
+</body>
+</html>
