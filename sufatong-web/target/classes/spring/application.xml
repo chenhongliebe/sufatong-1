@@ -11,19 +11,14 @@
 		http://www.springframework.org/schema/mvc
 		http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd">
 
-    <mvc:resources location="/" mapping="**.html"/>
-    <mvc:resources location="/" mapping="**.js"/>
-    <mvc:resources location="/" mapping="**.css"/>
-    <mvc:resources location="/" mapping="**.png"/>
-    <mvc:resources location="/" mapping="**.gif"/>
-    <mvc:resources location="/" mapping="**.jpg"/>
-    <mvc:default-servlet-handler/>
+
+
     <mvc:interceptors>
         <mvc:interceptor>
             <mvc:mapping path="/**"/>
             <mvc:exclude-mapping path="/page/test"/>
-            <!--<mvc:exclude-mapping path="/home/login"/>-->
-            <mvc:exclude-mapping path="/js/**"/>
+            <mvc:exclude-mapping path="/js/**.js"/>
+            <mvc:exclude-mapping path="/index.html"/>
             <bean  class="config.interceptor.CrossFilter" />
         </mvc:interceptor>
     </mvc:interceptors>
