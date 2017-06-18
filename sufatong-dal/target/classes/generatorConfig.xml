@@ -7,20 +7,22 @@
     <classPathEntry
             location="/Users/wyz/maven/DevRespository/mysql/mysql-connector-java/5.1.35/mysql-connector-java-5.1.35.jar"/>
     <!-- mvn mybatis-generator:generate -->
-    <context id="oneHour" targetRuntime="com.weidai.mybatis.IntrospectedTableMyBatis3ImplExt">
+    <context id="oneHour" targetRuntime="product.MybatisUtil">
         <property name="suppressAllComments" value="true"/>
         <property name="useActualColumnNames" value="false"/>
+        <!-- 生成作者，实际开发时请自行更改  -->
+        <property name="author" value="wangyz"/>
         <!-- 格式化java代码 -->
         <property name="javaFormatter" value="org.mybatis.generator.api.dom.DefaultJavaFormatter"/>
         <!-- 格式化XML代码 -->
         <property name="xmlFormatter" value="org.mybatis.generator.api.dom.DefaultXmlFormatter"/>
         <!-- 配置插件 -->
-        <plugin type="com.weidai.mybatis.WdMysqlClientGeneratorPlugin"/>
-        <commentGenerator type="com.weidai.mybatis.generator.CNCommentGenerator">
+        <plugin type="product.MyBatisPluginUtil"/>
+        <commentGenerator type="product.MysbatisCNUtil">
             <!-- 各成员变量、类文件，此配置请忽更改，若要更改请确保对该配置的理解 -->
             <!-- 是否去除自动生成的注释 true：是； false:否 -->
             <property name="suppressAllComments" value="true"/>
-            <property name="author" value="Liu Shimao"/>
+            <property name="author" value="wangyz"/>
             <!-- value 中值表示 生成该.java文件（主要是持久化实体类、Mapper接口）的作者，请自行修改-->
         </commentGenerator>
 

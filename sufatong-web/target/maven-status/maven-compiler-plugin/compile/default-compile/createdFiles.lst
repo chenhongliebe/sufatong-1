@@ -1,3 +1,4 @@
+com/legalups/sufatong/controller/home/WebPageController.class
 com/legalups/sufatong/controller/test/ApiTestController.class
 config/interceptor/CrossFilter.class
 com/legalups/sufatong/controller/home/HomeController.class

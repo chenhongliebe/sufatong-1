@@ -2,18 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42c546f5-1366-441f-865f-193f458d1337" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_weidai_mybatisplugin_1_1_1_SNAPSHOT.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_5.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sufatong-dal/src/main/java/product/MyBatisPluginUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sufatong-dal/src/main/java/product/MybatisUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sufatong-dal/src/main/java/product/MysbatisCNUtil.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sufatong-web/target/sufatong/WEB-INF/classes/spring/logback.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sufatong-web/target/sufatong/WEB-INF/classes/statics/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sufatong-web/target/sufatong/WEB-INF/classes/templates/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sufatong-web/target/sufatong/WEB-INF/lib/log4j-over-slf4j-1.7.24.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sufatong-web/target/sufatong/WEB-INF/lib/mybatisplugin-1.1.1-SNAPSHOT.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-common/target/sufatong-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/sufatong-common/target/sufatong-common-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-dal/target/jjw-dal.jar" afterPath="$PROJECT_DIR$/sufatong-dal/target/jjw-dal.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-service/target/sufatong-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/sufatong-service/target/sufatong-service-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-web/target/sufatong.war" afterPath="$PROJECT_DIR$/sufatong-web/target/sufatong.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-web/target/sufatong/WEB-INF/classes/com/legalups/sufatong/controller/home/HomeController.class" afterPath="$PROJECT_DIR$/sufatong-web/target/sufatong/WEB-INF/classes/com/legalups/sufatong/controller/home/HomeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-web/target/sufatong/WEB-INF/classes/com/legalups/sufatong/controller/test/ApiTestController.class" afterPath="$PROJECT_DIR$/sufatong-web/target/sufatong/WEB-INF/classes/com/legalups/sufatong/controller/test/ApiTestController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-web/target/sufatong/WEB-INF/classes/config/interceptor/CrossFilter.class" afterPath="$PROJECT_DIR$/sufatong-web/target/sufatong/WEB-INF/classes/config/interceptor/CrossFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-web/target/sufatong/WEB-INF/lib/sufatong-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/sufatong-web/target/sufatong/WEB-INF/lib/sufatong-common-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-web/target/sufatong/WEB-INF/lib/sufatong-dal-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/sufatong-web/target/sufatong/WEB-INF/lib/sufatong-dal-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-web/target/sufatong/WEB-INF/lib/sufatong-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/sufatong-web/target/sufatong/WEB-INF/lib/sufatong-service-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/sufatong_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/sufatong_web_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_thymeleaf_thymeleaf_Release.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_thymeleaf_thymeleaf_Release.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/sufatong-common/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-dal/pom.xml" afterPath="$PROJECT_DIR$/sufatong-dal/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-dal/src/main/java/com/legalups/sufatong/dao/mapper/FirstTbMapper.java" afterPath="$PROJECT_DIR$/sufatong-dal/src/main/java/com/legalups/sufatong/dao/mapper/FirstTbMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-dal/src/main/java/com/legalups/sufatong/model/FirstTb.java" afterPath="$PROJECT_DIR$/sufatong-dal/src/main/java/com/legalups/sufatong/model/FirstTb.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-dal/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/sufatong-dal/src/main/resources/generatorConfig.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-dal/sufatong-dal.iml" afterPath="$PROJECT_DIR$/sufatong-dal/sufatong-dal.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-dal/target/classes/generatorConfig.xml" afterPath="$PROJECT_DIR$/sufatong-dal/target/classes/generatorConfig.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-dal/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/sufatong-dal/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-dal/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/sufatong-dal/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-dal/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/sufatong-dal/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-service/sufatong-service.iml" afterPath="$PROJECT_DIR$/sufatong-service/sufatong-service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/sufatong-service/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-web/sufatong-web.iml" afterPath="$PROJECT_DIR$/sufatong-web/sufatong-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/sufatong-web/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/sufatong-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/sufatong-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-web/target/sufatong/WEB-INF/classes/application.properties" afterPath="$PROJECT_DIR$/sufatong-web/target/sufatong/WEB-INF/classes/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sufatong-web/target/sufatong/WEB-INF/classes/spring/application.xml" afterPath="$PROJECT_DIR$/sufatong-web/target/sufatong/WEB-INF/classes/spring/application.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/sufatong-web/target/" />
@@ -44,19 +70,31 @@
       <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sufatong-dal/src/main/resources/generatorConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="149">
+              <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirstTbMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sufatong-dal/src/main/java/com/legalups/sufatong/dao/mapper/FirstTbMapper.java">
+      <file leaf-file-name="WdMysqlClientGeneratorPlugin.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../idealProject/com/weidai/mybatisplugin/1.1.1/mybatisplugin-1.1.1-sources.jar!/com/weidai/mybatis/WdMysqlClientGeneratorPlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="4050">
+              <caret line="325" column="63" lean-forward="false" selection-start-line="325" selection-start-column="63" selection-end-line="325" selection-end-column="63" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyBatisPluginUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sufatong-dal/src/main/java/product/MyBatisPluginUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,8 +102,42 @@
       <file leaf-file-name="FirstTb.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sufatong-dal/src/main/java/com/legalups/sufatong/model/FirstTb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="390">
+              <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CNCommentGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../idealProject/com/weidai/mybatisplugin/1.1.1/mybatisplugin-1.1.1-sources.jar!/com/weidai/mybatis/generator/CNCommentGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MybatisUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sufatong-dal/src/main/java/product/MybatisUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="74" lean-forward="false" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MysbatisCNUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sufatong-dal/src/main/java/product/MysbatisCNUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -74,9 +146,11 @@
       <file leaf-file-name="IntrospectedTableMyBatis3ImplExt.java" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../../idealProject/com/weidai/mybatisplugin/1.1.1/mybatisplugin-1.1.1-sources.jar!/com/weidai/mybatis/IntrospectedTableMyBatis3ImplExt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="45" />
-              <folding />
+            <state relative-caret-position="348">
+              <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,8 +158,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sufatong-dal/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -97,8 +171,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -109,10 +183,12 @@
       <find>auth</find>
       <find>registry_</find>
       <find>registry</find>
-      <find>weidai</find>
       <find>MVC</find>
       <find>RESOURCES</find>
       <find>IntrospectedTableMyBatis3ImplExt</find>
+      <find>WdMysqlClientGeneratorPlugin</find>
+      <find>weidai</find>
+      <find>product</find>
     </findStrings>
     <replaceStrings>
       <replace>legalups.sufatong</replace>
@@ -162,7 +238,12 @@
         <option value="$PROJECT_DIR$/sufatong-web/src/main/resources/static/templates/test.html" />
         <option value="$PROJECT_DIR$/sufatong-web/pom.xml" />
         <option value="$PROJECT_DIR$/sufatong-common/pom.xml" />
+        <option value="$PROJECT_DIR$/sufatong-dal/src/main/java/MybatisUtil.java" />
+        <option value="$PROJECT_DIR$/sufatong-dal/src/main/java/MysbatisCNUtil.java" />
+        <option value="$PROJECT_DIR$/sufatong-dal/src/main/java/product/MybatisUtil.java" />
+        <option value="$PROJECT_DIR$/sufatong-dal/src/main/java/product/MysbatisCNUtil.java" />
         <option value="$PROJECT_DIR$/sufatong-dal/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/sufatong-dal/src/main/java/product/MyBatisPluginUtil.java" />
         <option value="$PROJECT_DIR$/sufatong-dal/pom.xml" />
       </list>
     </option>
@@ -614,6 +695,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="product" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sufatong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sufatong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sufatong-dal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="sufatong" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -673,22 +784,23 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/wyz/Documents/workspace-ideal/sufatong/sufatong-service/src/main/java/com/legalups/sufatong/service/arbitration/ArbitrationSerivce.java" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/sufatong-web/src/main/resources/static" />
-      <recent name="$PROJECT_DIR$/sufatong-web/src/main/resources/static/js" />
-      <recent name="$PROJECT_DIR$/sufatong-web/src/main/resources/spring" />
-      <recent name="$PROJECT_DIR$/sufatong-web/src/main/resources" />
-      <recent name="$PROJECT_DIR$/sufatong-web/src/main/webRoot/statics/js" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.legalups.sufatong.common.support.controller" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sufatong-web/src/main/resources" />
       <recent name="$PROJECT_DIR$/sufatong-web/src/main/resources/static/js" />
       <recent name="$PROJECT_DIR$/sufatong-web/src/main/resources/static/templates" />
       <recent name="$PROJECT_DIR$/sufatong-web/src/main/resources/config" />
       <recent name="$PROJECT_DIR$/sufatong-web/src/main/resources/templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="product" />
+      <recent name="com.legalups.sufatong.common.support.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sufatong-web/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/sufatong-web/src/main/resources/static/js" />
+      <recent name="$PROJECT_DIR$/sufatong-web/src/main/resources/spring" />
+      <recent name="$PROJECT_DIR$/sufatong-web/src/main/resources" />
+      <recent name="$PROJECT_DIR$/sufatong-web/src/main/webRoot/statics/js" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Application">
@@ -1129,20 +1241,20 @@
       <workItem from="1497102008126" duration="20018000" />
       <workItem from="1497512769755" duration="13000" />
       <workItem from="1497512799831" duration="19477000" />
-      <workItem from="1497772116601" duration="580000" />
+      <workItem from="1497772116601" duration="2323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59036000" />
+    <option name="totallyTimeSpent" value="60779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="728" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22955975" sideWeight="0.50646204" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22955975" sideWeight="0.509693" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1157,13 +1269,14 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22955975" sideWeight="0.49353796" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22955975" sideWeight="0.49030694" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24394184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24394184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.49676898" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1172,7 +1285,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1192,59 +1304,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../idealProject/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE.jar!/org/springframework/web/servlet/HandlerExecutionChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sufatong-common/src/main/java/com/legalups/sufatong/common/enums/ApiEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-          <folding>
-            <element signature="e#560#561#0" expanded="false" />
-            <element signature="e#586#587#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sufatong-common/src/main/java/com/legalups/sufatong/common/support/CookieUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sufatong-common/src/main/java/com/legalups/sufatong/common/support/TokenUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../idealProject/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar!/org/mybatis/generator/api/PluginAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../idealProject/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar!/org/mybatis/generator/config/Context.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../idealProject/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5-sources.jar!/org/mybatis/generator/config/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="50" column="39" lean-forward="false" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../idealProject/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5-sources.jar!/org/mybatis/generator/config/PropertyHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1427,7 +1486,7 @@
         <state relative-caret-position="450">
           <caret line="42" column="27" lean-forward="false" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1437,8 +1496,8 @@
         <state relative-caret-position="315">
           <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
           <folding>
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="false" />
+            <element signature="e#607#608#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1472,16 +1531,8 @@
         <state relative-caret-position="89">
           <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../idealProject/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5-sources.jar!/org/mybatis/generator/api/IntrospectedTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1509,22 +1560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../idealProject/com/weidai/mybatisplugin/1.1.1/mybatisplugin-1.1.1-sources.jar!/com/weidai/mybatis/IntrospectedTableMyBatis3ImplExt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sufatong-dal/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sufatong-dal/src/main/java/com/legalups/sufatong/dao/mapper/FirstTbMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1533,19 +1568,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/../../idealProject/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5-sources.jar!/org/mybatis/generator/api/IntrospectedTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23250">
+          <caret line="1638" column="0" lean-forward="false" selection-start-line="1638" selection-start-column="0" selection-end-line="1638" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../idealProject/com/weidai/mybatisplugin/1.1.1/mybatisplugin-1.1.1-sources.jar!/com/weidai/mybatis/IntrospectedTableMyBatis3ImplExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../idealProject/com/weidai/mybatisplugin/1.1.1/mybatisplugin-1.1.1-sources.jar!/com/weidai/mybatis/generator/CNCommentGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sufatong-dal/src/main/java/MybatisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sufatong-dal/src/main/java/MysbatisCNUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sufatong-dal/src/main/java/product/MybatisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="74" lean-forward="false" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sufatong-dal/src/main/java/product/MysbatisCNUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../idealProject/com/weidai/mybatisplugin/1.1.1/mybatisplugin-1.1.1-sources.jar!/com/weidai/mybatis/WdMysqlClientGeneratorPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4050">
+          <caret line="325" column="63" lean-forward="false" selection-start-line="325" selection-start-column="63" selection-end-line="325" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sufatong-dal/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sufatong-dal/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sufatong-dal/src/main/java/product/MyBatisPluginUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sufatong-dal/src/main/java/com/legalups/sufatong/model/FirstTb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="390">
+          <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

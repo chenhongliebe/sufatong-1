@@ -1,3 +1,8 @@
+MybatisUtil.class
 com/legalups/sufatong/dao/mapper/FirstTbMapper.class
+MysbatisCNUtil.class
 com/legalups/sufatong/dao/mapper/FirstTbMapperExt.class
 com/legalups/sufatong/model/FirstTb.class
+product/MysbatisCNUtil.class
+product/MybatisUtil.class
+product/MyBatisPluginUtil.class
