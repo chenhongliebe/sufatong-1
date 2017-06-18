@@ -20,6 +20,12 @@
       <root url="jar://$PROJECT_DIR$/../../idealProject/org/attoparser/attoparser/2.0.4.RELEASE/attoparser-2.0.4.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../idealProject/org/unbescape/unbescape/1.1.4.RELEASE/unbescape-1.1.4.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../idealProject/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../idealProject/org/thymeleaf/thymeleaf/3.0.6.RELEASE/thymeleaf-3.0.6.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../idealProject/ognl/ognl/3.1.12/ognl-3.1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../idealProject/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../idealProject/org/attoparser/attoparser/2.0.4.RELEASE/attoparser-2.0.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../idealProject/org/unbescape/unbescape/1.1.4.RELEASE/unbescape-1.1.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../idealProject/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

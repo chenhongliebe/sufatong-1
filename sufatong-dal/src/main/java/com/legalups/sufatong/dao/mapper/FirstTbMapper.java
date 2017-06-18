@@ -13,8 +13,8 @@ import com.legalups.sufatong.model.FirstTb;
  * <p>
  * 表 : first_tb的 Mapper 类
  * 
- * @author 	$author$
- * @date 	2017年06月06日
+ * @author 	wangyz
+ * @date 	2017年06月18日
  */
 public interface FirstTbMapper {
     int deleteByPrimaryKey(Long id);

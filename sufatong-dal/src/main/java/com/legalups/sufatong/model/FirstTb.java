@@ -13,8 +13,8 @@ import java.util.Date;
  * <p>
  * 表 : first_tb的 Model 类
  * 
- * @author 	Liu Shimao
- * @date 	2017年06月06日
+ * @author 	wangyz
+ * @date 	2017年06月18日
  */
 public class FirstTb {
     /** 字段:ID，主键ID */
