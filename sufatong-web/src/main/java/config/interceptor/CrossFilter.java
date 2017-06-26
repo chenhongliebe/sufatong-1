@@ -51,25 +51,18 @@ public class CrossFilter implements HandlerInterceptor, InitializingBean {
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
         setHeader(httpServletRequest, httpServletResponse);
 
-//
-        log.info("请求地址：{}",httpServletRequest.getRequestURL());
-
-        if (httpServletRequest.getRequestURL().indexOf("login") != -1){
-            log.info("login:"+httpServletRequest.getSession().getId());
-            Cookie cookie = new Cookie(sessionKey,httpServletRequest.getSession().getId());
-            cookie.setPath("/");
-            httpServletResponse.addCookie(cookie);
-//            String cookie = CookieUtil.getCookieValue(httpServletRequest, "username");
-//            httpServletRequest.getSession().setAttribute(cookie,"");
+        StringBuffer url = httpServletRequest.getRequestURL();
+        log.info("请求地址：{}",url);
+        if (url.indexOf("login") != -1){
+            if (url.indexOf("/home/login") != -1){
+                log.info("login:"+httpServletRequest.getSession().getId());
+                Cookie cookie = new Cookie(sessionKey,httpServletRequest.getSession().getId());
+                cookie.setPath("/");
+                httpServletResponse.addCookie(cookie);
+            }
             return  true;
         }
 
-//       String header = CookieUtil.getCookieValue(httpServletRequest, sessionKey);
-//        if (StringUtils.isBlank(header)){
-//            httpServletResponse.setContentType("application/javascript;charset=UTF-8");
-//            httpServletResponse.getWriter().write(context.getNotLoginJsonString());
-//            return false;
-//        }
 
         Cookie[] cookies = httpServletRequest.getCookies();
         String sessionId = "";
@@ -78,16 +71,13 @@ public class CrossFilter implements HandlerInterceptor, InitializingBean {
                 sessionId = cookie.getValue();
             }
         }
-        log.info("mvc:"+sessionId);
+//        log.info("mvc:"+sessionId);
         LoginInfo user = (LoginInfo) httpServletRequest.getSession().getAttribute(sessionId);
         if (user == null) {
             httpServletResponse.setContentType("application/javascript;charset=UTF-8");
             httpServletResponse.getWriter().write("no login");
             return false;
         }
-        Cookie cookie = new Cookie(sessionKey,httpServletRequest.getSession().getId());
-//            cookie.set
-        httpServletResponse.addCookie(cookie);
         AuthUtil.setUserInfo(user);
         return true;
     }
