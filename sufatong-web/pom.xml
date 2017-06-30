@@ -11,9 +11,20 @@
 
     <artifactId>sufatong-web</artifactId>
 
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <arguments>
+                        <argument>spring.profiles.active=dev</argument>
+                    </arguments>
+                </configuration>
+            </plugin>
+        </plugins>
         <finalName>sufatong</finalName>
         <resources>
             <resource>
@@ -49,8 +60,6 @@
 
 
     </dependencies>
-
-
 
 
 </project>
